@@ -7,16 +7,23 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Pivot Index",
-            "program": "${workspaceFolder}find_pivot_index.js",
+            "name": "Launch Pivot Index",
+            "program": "${workspaceFolder}/array_and_string/find_pivot_index.js",
             "skipFiles": ["<node_internals>/**"]
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": ["<node_internals>/**"],
-            "program": "${workspaceFolder}/index.js"
+            "name": "Launch Largest Number",
+            "program": "${workspaceFolder}/array_and_string/largest_number.js",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Plus One",
+            "program": "${workspaceFolder}/array_and_string/plus_one.js",
+            "skipFiles": ["<node_internals>/**"]
         }
     ]
 }
